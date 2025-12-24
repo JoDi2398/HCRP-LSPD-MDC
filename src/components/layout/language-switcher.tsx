@@ -35,6 +35,7 @@ export function LanguageSwitcher() {
         case 'en': return t('common.language.english');
         case 'es': return t('common.language.spanish');
         case 'sl': return t('common.language.slovenian');
+        case 'de': return t('common.language.german');
         default: return l;
     }
   }

@@ -2,7 +2,7 @@ import { readdirSync } from 'node:fs';
 import path from 'node:path';
 import type { NextConfig } from 'next';
 
-const defaultLocale = 'en';
+const defaultLocale = 'de';
 
 function resolveLocales(): string[] {
   try {
