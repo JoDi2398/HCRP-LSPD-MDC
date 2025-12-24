@@ -1,0 +1,1601 @@
+{
+  "common": {
+    "language": {
+      "label": "Sprache",
+      "english": "Englisch",
+      "spanish": "Spanisch",
+      "slovenian": "Slowenisch",
+      "german": "Deutsch"
+    }
+  },
+  "navigation": {
+    "dashboard": "Übersicht",
+    "legalSearch": "Rechtsuche",
+    "arrestCalculator": "Haftrechner",
+    "arrestReport": "Festnahmebericht",
+    "paperworkGenerators": "Dokument-Generatoren",
+    "simplifiedPenalCode": "Vereinfachtes Strafgesetzbuch",
+    "caselaw": "Rechtsprechung & Rechtsressourcen",
+    "map": "Interaktive Karte",
+    "logParser": "Log-Parser",
+    "reportArchive": "Berichtsarchiv",
+    "settings": "Einstellungen",
+    "help": "Hilfe & Feedback",
+    "announcements": "Ankündigungen",
+    "github": "GitHub"
+  },
+  "announcements": {
+    "pageTitle": "Ankündigungen",
+    "header": {
+      "title": "Ankündigungen",
+      "description": "Bleibe auf dem neuesten Stand mit den aktuellen News und Updates."
+    },
+    "postedOn": "Veröffentlicht am"
+  },
+  "settings": {
+    "pageTitle": "Einstellungen",
+    "header": {
+      "title": "Einstellungen",
+      "description": "Verwalte deine Anwendungseinstellungen und Daten."
+    },
+    "appearance": {
+      "title": "Darstellung",
+      "description": "Passe das Aussehen und Verhalten der Anwendung an.",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System",
+      "backgroundLogo": {
+        "title": "Hintergrundlogo",
+        "description": "Wähle das Logo, das hinter dem Anwendungsinhalt angezeigt wird.",
+        "options": {
+          "sanAndreasSeal": "Siegel von San Andreas",
+          "lspd": "Los Santos Police Department",
+          "lssd": "Los Santos County Sheriff's Department"
+        }
+      }
+    },
+    "defaultOfficer": {
+      "title": "Standard-Informationen des Officers",
+      "description": "Lege die Standarddaten des Officers fest, die in neuen Festnahmeberichten vorausgefüllt werden.",
+      "predefinedActive": {
+        "title": "Vordefinierte Liste aktiv",
+        "description": "Deine Officer-Informationen werden derzeit über eine vordefinierte Liste verwaltet.",
+        "alert": "Um deine Officer-Liste zu verwalten, gehe bitte zur Seite „Erweiterte Formularparameter“. Unten kannst du auf die Einrichtung mit einem einzelnen Standard-Officer zurücksetzen.",
+        "goToAdvanced": "Zu den erweiterten Parametern",
+        "reset": "Auf Standard zurücksetzen"
+      },
+      "fields": {
+        "fullName": "Vollständiger Name",
+        "fullNamePlaceholder": "Max Mustermann",
+        "rankAndDept": "Dienstgrad & Abteilung",
+        "rankPlaceholder": "Dienstgrad auswählen",
+        "badgeNo": "Dienstnummer",
+        "badgePlaceholder": "12345",
+        "divDetail": "Division / Einheit",
+        "divDetailPlaceholder": "z. B. Mission Row"
+      }
+    },
+    "advancedParams": {
+      "title": "Erweiterte Formularparameter",
+      "description": "Konfiguriere erweiterte Formularoptionen, z. B. eine Standard-Officer-Liste.",
+      "button": "Zu den erweiterten Parametern"
+    },
+    "predefinedCallsigns": {
+      "title": "Vordefinierte Rufzeichen",
+      "description": "Verwalte eine Liste von Rufzeichen für die schnelle Auswahl in Formularen.",
+      "placeholder": "Rufzeichen #{index}",
+      "addButton": "Rufzeichen hinzufügen"
+    },
+    "altCharacters": {
+      "title": "Alternative Charaktere",
+      "description": "Verwalte bis zu 3 alternative Charaktere zur schnellen Auswahl in Berichten.",
+      "character": "Charakter {index}",
+      "addButton": "Charakter hinzufügen"
+    },
+    "formVisibility": {
+      "title": "Formularsichtbarkeit",
+      "description": "Lege fest, welche fraktionsspezifischen Formulare auf der Seite „Dokument-Generatoren“ sichtbar sind.",
+      "noGroups": "Keine umschaltbaren Fraktions-Formulargruppen gefunden."
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "description": "Lege fest, wie deine Daten verwendet werden.",
+      "analyticsLabel": "Anonyme Analysen",
+      "analyticsDescription": "Hilf, die Anwendung zu verbessern, indem du anonyme Nutzungsdaten teilst."
+    },
+    "experimental": {
+      "title": "Experimentelle Funktionen",
+      "description": "Opt-in, um neue Funktionen zu testen, die sich noch in Entwicklung befinden. Diese können instabil sein.",
+      "aiReportsLabel": "KI-Festnahmeberichte",
+      "aiReportsDescription": "Zeigt KI-Funktionen im Basis-Festnahmebericht an, die beim Schreiben von Festnahmeberichten helfen können, wenn jemand schuldig plädiert."
+    },
+    "dataManagement": {
+      "title": "Datenverwaltung",
+      "description": "Lösche dauerhaft alle gespeicherten Daten, einschließlich gespeicherter Berichte, Delikte und Standardeinstellungen. Diese Aktion kann nicht rückgängig gemacht werden.",
+      "exportButton": "Daten exportieren",
+      "importButton": "Daten importieren",
+      "clearButton": "Alle Seitendaten löschen",
+      "clearDialog": {
+        "title": "Bist du dir absolut sicher?",
+        "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dadurch werden alle Anwendungsdaten dauerhaft aus dem Browser-Speicher gelöscht."
+      }
+    },
+    "toasts": {
+      "settingsSaved": "Einstellungen gespeichert",
+      "settingsSavedDesc": "Deine Einstellungen wurden aktualisiert.",
+      "dataCleared": "Daten gelöscht",
+      "dataClearedDesc": "Alle lokalen und Session-Daten wurden erfolgreich gelöscht.",
+      "clearError": "Fehler",
+      "clearErrorDesc": "Konnte nicht alle Seitendaten löschen. Prüfe die Konsole für Details.",
+      "dataExported": "Daten exportiert",
+      "dataExportedDesc": "Eine Datei mit deinen Daten wurde heruntergeladen.",
+      "dataImported": "Daten importiert",
+      "dataImportedDesc": "Lokale Storage-Daten wurden importiert.",
+      "importFailed": "Import fehlgeschlagen",
+      "importFailedDesc": "Konnte Daten nicht importieren. Bitte stelle sicher, dass die Datei gültig ist."
+    },
+    "buttons": {
+      "save": "Alle Änderungen speichern",
+      "cancel": "Abbrechen",
+      "continue": "Fortfahren"
+    },
+    "advanced": {
+      "pageTitle": "Erweiterte Formularparameter",
+      "header": {
+        "title": "Erweiterte Formularparameter",
+        "description": "Verwalte deine vordefinierte Officer-Liste für Formulare."
+      },
+      "setup": {
+        "title": "Vordefinierte Officer-Konfiguration",
+        "description": "Definiere eine Liste von Officers, mit denen du häufig auf Streife bist. Diese Liste wird automatisch in neue Berichte geladen.",
+        "officer": "Officer {index}",
+        "addOfficerButton": "Officer hinzufügen"
+      }
+    }
+  },
+  "reportArchive": {
+    "documentTitle": "Berichtsarchiv",
+    "header": {
+      "title": "Berichtsarchiv",
+      "description": "Sieh dir frühere Festnahmeberichte und Einreichungen aus den Dokument-Generatoren an und stelle sie wieder her."
+    },
+    "buttons": {
+      "deleteAll": "Alle löschen",
+      "cancel": "Abbrechen",
+      "continue": "Fortfahren",
+      "restore": "Wiederherstellen",
+      "delete": "Löschen"
+    },
+    "dialogs": {
+      "deleteAll": {
+        "title": "Bist du dir absolut sicher?",
+        "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dadurch werden alle {count} archivierten Berichte dauerhaft gelöscht."
+      },
+      "deleteSingle": {
+        "title": "Bist du sicher?",
+        "description": "Diese Aktion kann nicht rückgängig gemacht werden. Dadurch wird dieser archivierte Bericht dauerhaft gelöscht."
+      }
+    },
+    "tabs": {
+      "arrestReports": "Festnahmeberichte",
+      "paperworkGenerators": "Dokument-Generatoren"
+    },
+    "arrestReports": {
+      "title": "Festnahmeberichte",
+      "empty": "Keine archivierten Festnahmeberichte gefunden."
+    },
+    "paperworkSubmissions": {
+      "title": "Einreichungen der Dokument-Generatoren",
+      "empty": "Keine archivierten Einreichungen gefunden."
+    },
+    "table": {
+      "headers": {
+        "date": "Datum",
+        "reportType": "Berichtstyp",
+        "suspectName": "Name des Verdächtigen",
+        "actions": "Aktionen",
+        "generator": "Generator",
+        "source": "Quelle"
+      },
+      "notAvailable": "N/V",
+      "unknownGenerator": "Unbekannter Generator"
+    },
+    "reportTypes": {
+      "basic": "Basis",
+      "advanced": "Erweitert"
+    },
+    "sourceTypes": {
+      "user": "Benutzerdefiniert",
+      "static": "Statisch"
+    }
+  },
+  "logParser": {
+    "pageTitle": "Log-Parser",
+    "header": {
+      "title": "Log-Parser",
+      "description": "Filtere GTA:World Chat-Logs, um bestimmte Charakter-Interaktionen zu isolieren."
+    },
+    "configuration": {
+      "title": "Konfiguration",
+      "description": "Gib die Charakternamen ein und wähle die Filteroptionen.",
+      "characterNamesLabel": "Charakternamen",
+      "characterNamePlaceholder": "Charaktername {index}",
+      "addCharacterButton": "Charakter hinzufügen",
+      "filteringOptionsLabel": "Filteroptionen",
+      "options": {
+        "includeTimestamps": "Zeitstempel einschließen",
+        "includeEmotes": "Emotes einschließen",
+        "includeRadio": "Funk einschließen",
+        "includeAme": "/ame einschließen",
+        "includeDo": "/do einschließen"
+      }
+    },
+    "io": {
+      "title": "Eingabe & Ausgabe",
+      "rawLogLabel": "Rohes Chat-Log",
+      "rawLogPlaceholder": "Füge hier dein Chat-Log ein...",
+      "filteredOutputLabel": "Gefilterte Ausgabe",
+      "filteredOutputPlaceholder": "Gefilterte Logs erscheinen hier...",
+      "parseButton": "Logs parsen",
+      "copyButton": "Ausgabe kopieren"
+    },
+    "toasts": {
+      "missingName": {
+        "title": "Charaktername fehlt",
+        "description": "Bitte gib mindestens einen Charakternamen ein, um die Logs zu filtern."
+      },
+      "success": {
+        "title": "Logs geparst",
+        "description": "Das Chat-Log wurde anhand deiner Auswahl gefiltert."
+      },
+      "nothingToCopy": {
+        "title": "Nichts zu kopieren",
+        "description": "Die Ausgabe ist leer."
+      },
+      "copied": {
+        "title": "Kopiert!",
+        "description": "Die gefilterte Ausgabe wurde in die Zwischenablage kopiert."
+      }
+    }
+  },
+  "simplifiedPenalCode": {
+    "page": {
+      "documentTitle": "Vereinfachtes Strafgesetzbuch",
+      "header": {
+        "title": "Vereinfachtes Strafgesetzbuch",
+        "description": "Durchsuche und finde Delikte in der Liste."
+      },
+      "searchPlaceholder": "Suche nach ID, Name, Definition oder Auflage...",
+      "filters": {
+        "all": "Alle",
+        "felonies": "Verbrechen",
+        "misdemeanors": "Vergehen",
+        "infractions": "Ordnungswidrigkeiten"
+      },
+      "error": {
+        "title": "Daten konnten nicht geladen werden",
+        "fetchFailed": "Konnte Strafgesetzbuch-Daten nicht abrufen"
+      },
+      "noResults": "Keine Delikte gefunden, die deinen Suchkriterien entsprechen."
+    },
+    "chargeCard": {
+      "types": {
+        "felony": "Verbrechen",
+        "misdemeanor": "Vergehen",
+        "infraction": "Ordnungswidrigkeit",
+        "other": "Sonstiges"
+      },
+      "drugRelated": "Betäubungsmittelbezogen",
+      "details": {
+        "classes": "Klassen",
+        "offenses": "Taten",
+        "points": "Punkte",
+        "fine": "Geldstrafe",
+        "minSentence": "Mindeststrafe (Schuldig)",
+        "maxSentence": "Höchststrafe (No Contest)",
+        "bail": "Kaution",
+        "varies": "Variiert",
+        "variesByCategory": "Variiert je Kategorie"
+      },
+      "stipulations": {
+        "title": "Auflagen",
+        "note": "Hinweis"
+      },
+      "drugCategories": {
+        "title": "Drogenkategorien & Auflagen",
+        "minTime": "Mindestzeit",
+        "fine": "Geldstrafe"
+      },
+      "time": {
+        "days": {
+          "one": "Tag",
+          "other": "Tage"
+        },
+        "hours": {
+          "one": "Stunde",
+          "other": "Stunden"
+        },
+        "minutes": {
+          "one": "Minute",
+          "other": "Minuten"
+        }
+      },
+      "bail": {
+        "noBail": "KEINE KAUTION",
+        "discretionary": "IM ERMESSEN",
+        "autoBail": "AUTO-KAUTION"
+      }
+    }
+  },
+  "legalSearch": {
+    "pageTitle": "Rechtsuche",
+    "header": {
+      "title": "Rechtsuche",
+      "description": "Stelle Fragen und erhalte Strafgesetzbuch- sowie Rechtsprechungs-Zitate in einer Antwort."
+    },
+    "accuracyNotice": {
+      "title": "Hinweis zur Genauigkeit",
+      "description": "Dieser Assistent kann Fehler machen. Bestätige die zitierten Gesetzesstellen und Rechtsprechung immer, bevor du auf Grundlage der Informationen handelst."
+    },
+    "intro": {
+      "title": "Rechtsuche-Assistent",
+      "description": "Beschreibe eine Situation oder frage nach einer Vorschrift. Ich gebe eine kurze Erklärung und zitiere relevante Strafgesetzbuch-Delikte oder Rechtsprechung, damit du sofort tiefer einsteigen kannst.",
+      "bullets": {
+        "penalCode": "Passende Delikte aus dem San-Andreas-Strafgesetzbuch finden.",
+        "caselaw": "Lokale Rechtsprechungs-Zusammenfassungen und Auswirkungen anzeigen.",
+        "oyez": "Ähnliche Oyez-Fälle zum Weiterlesen verlinken."
+      }
+    },
+    "chargeTypes": {
+      "felony": "Verbrechen",
+      "misdemeanor": "Vergehen",
+      "infraction": "Ordnungswidrigkeit"
+    },
+    "results": {
+      "explanation": "Erklärung",
+      "penalCode": "Strafgesetzbuch-Zitate",
+      "caselaw": "Rechtsprechungs-Zitate",
+      "oyez": "Oyez-Referenzen",
+      "noPenalCode": "Für diese Anfrage wurden keine passenden Delikte identifiziert.",
+      "noCaselaw": "Keine lokale Rechtsprechung hat direkt zu dieser Frage gepasst.",
+      "summary": "Zusammenfassung",
+      "implication": "Auswirkung"
+    },
+    "inputPlaceholder": "Frage zu Delikt, Rechtsprechung oder Rechtslage stellen...",
+    "buttons": {
+      "search": "Suchen",
+      "searching": "Suche..."
+    },
+    "errors": {
+      "title": "Suche nicht möglich",
+      "overloaded": "Das Modell ist derzeit überlastet. Bitte versuche es in einem Moment erneut.",
+      "generic": "Beim Suchen ist ein Fehler aufgetreten. Bitte versuche es erneut."
+    }
+  },
+  "caselaw": {
+    "pageTitle": "Rechtsprechung & Rechtsressourcen",
+    "header": {
+      "title": "Rechtsprechung & Rechtsressourcen",
+      "description": "Greife schnell auf Rechtsdokumente, Zeitpläne und wichtige Rechtsprechung zu."
+    },
+    "database": {
+      "title": "Rechtsprechungsdatenbank",
+      "description": "Suche nach relevanter Rechtsprechung.",
+      "searchPlaceholder": "Suche nach Fallname oder Zusammenfassung...",
+      "filters": {
+        "all": "Alle",
+        "federal": "Vereinigte Staaten",
+        "local": "San Andreas"
+      },
+      "noResults": "Keine Rechtsprechung gefunden, die deinen Suchkriterien entspricht."
+    },
+    "cards": {
+      "summary": "Zusammenfassung",
+      "implication": "Auswirkung für Officers",
+      "viewSource": "Quelle ansehen"
+    },
+    "jurisdictions": {
+      "federal": "Bund",
+      "federalCivil": "Bund (Zivil)",
+      "localSupreme": "SA Supreme Court",
+      "localAppeals": "SA Court of Appeals",
+      "localAppealsCivil": "SA Court of Appeals (Zivil)",
+      "unknown": "Unbekannt"
+    },
+    "toasts": {
+      "copied": {
+        "title": "In die Zwischenablage kopiert",
+        "description": "Inhalt von {title} wurde kopiert."
+      }
+    }
+  },
+  "paperworkGenerators": {
+    "page": {
+      "documentTitle": "Dokument-Generatoren",
+      "header": {
+        "title": "Dokument-Generatoren",
+        "description": "Wähle eine Vorlage oder verwende eines deiner gespeicherten Formulare."
+      },
+      "builderButton": "Neues Formular erstellen",
+      "customForms": {
+        "title": "Deine benutzerdefinierten Formulare",
+        "table": {
+          "title": "Titel",
+          "description": "Beschreibung",
+          "lastModified": "Zuletzt geändert",
+          "actions": "Aktionen",
+          "useForm": "Formular verwenden"
+        },
+        "empty": "Du hast noch keine Formulare erstellt. Klicke auf „Neues Formular erstellen“, um zu beginnen."
+      },
+      "newAddition": "NEU"
+    },
+    "builder": {
+      "pageTitle": "Formular-Builder"
+    },
+    "list": {
+      "globalTitle": "Globale Generatoren",
+      "empty": "Keine Dokument-Generatoren verfügbar."
+    }
+  },
+  "paperworkSubmit": {
+    "documentTitle": "Dokumenteinreichung",
+    "header": {
+      "title": "Dokumenteinreichung",
+      "description": "Prüfe das formatierte Dokument unten."
+    },
+    "alert": {
+      "title": "Hinweis!",
+      "description": "Die Vorschau auf dieser Seite sieht ggf. nicht zu 100% korrekt aus, aber der generierte Inhalt ist dafür ausgelegt, perfekt dort zu funktionieren, wo du ihn einfügst. Dieser Bericht wurde außerdem archiviert."
+    },
+    "reportTitleLabel": "Berichtstitel",
+    "buttons": {
+      "copyTitle": "Titel kopieren",
+      "download": "Bericht herunterladen",
+      "downloading": "Bild wird vorbereitet...",
+      "copyPaperwork": "Dokument kopieren"
+    },
+    "error": {
+      "header": {
+        "title": "Einreichungsfehler",
+        "description": "Konnte die notwendigen Daten nicht finden, um dieses Dokument zu generieren."
+      },
+      "alert": {
+        "title": "Fehler",
+        "description": "Konnte Berichtsdaten nicht laden. Bitte gehe zurück zur Generator-Seite und versuche es erneut."
+      }
+    },
+    "toasts": {
+      "copySuccess": {
+        "title": "Erfolg",
+        "description": "Dokumentinhalt in die Zwischenablage kopiert."
+      },
+      "copyTitleSuccess": {
+        "description": "Berichtstitel in die Zwischenablage kopiert."
+      },
+      "downloadStart": {
+        "title": "Download gestartet",
+        "description": "Dein Dokumentbild wird heruntergeladen."
+      },
+      "downloadFailed": {
+        "title": "Download fehlgeschlagen",
+        "description": "Konnte aus der Dokumentvorschau kein Bild erstellen. Bitte versuche es erneut."
+      }
+    }
+  },
+  "maintenance": {
+    "title": "Wartungsarbeiten",
+    "message": "Wir führen derzeit geplante Wartungsarbeiten durch. Wir sind in Kürze wieder online."
+  },
+  "clientLayout": {
+    "betaEndedTitle": "Beta-Zugang ist beendet",
+    "betaEndedMessage": "Diese Beta-Version ist nicht mehr aktiv. Bitte nutze die Hauptseite.",
+    "betaLiveSite": "Zur Live-Seite",
+    "exportData": "Daten exportieren",
+    "toast": {
+      "exportedTitle": "Daten exportiert",
+      "exportedDescription": "Eine Datei mit deinen Daten wurde heruntergeladen."
+    }
+  },
+  "dashboard": {
+    "header": {
+      "title": "Übersicht",
+      "description": "Willkommen bei MDC Panel+. Hier sind deine verfügbaren Tools."
+    },
+    "modules": {
+      "arrestCalculator": {
+        "title": "Haftrechner",
+        "description": "Berechne Haftstrafen basierend auf Delikten."
+      },
+      "arrestReport": {
+        "title": "Festnahmebericht",
+        "description": "Erstelle und verwalte Festnahmeberichte."
+      },
+      "paperworkGenerators": {
+        "title": "Dokument-Generatoren",
+        "description": "Generiere verschiedene Arten von Dokumenten."
+      },
+      "penalCode": {
+        "title": "Vereinfachtes Strafgesetzbuch",
+        "description": "Durchsuche eine vereinfachte Version des Strafgesetzbuchs."
+      },
+      "caselaw": {
+        "title": "Rechtsprechung & Rechtsressourcen",
+        "description": "Greife auf Rechtsprechung und weitere Rechtsressourcen zu."
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "description": "Verwalte deine Anwendungseinstellungen und Daten."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "version": "Version",
+    "about": "Über",
+    "credits": "Credits und Beiträge"
+  },
+  "about": {
+    "pageTitle": "Über",
+    "header": {
+      "title": "Über MDC Panel+",
+      "description": "Ein Herzensprojekt, das helfen soll."
+    },
+    "overview": {
+      "title": "Worum geht’s hier?",
+      "paragraphs": [
+        "Hallo! Ich bin ein Solo-Entwickler und habe dieses Tool aus dem ehrlichen Wunsch heraus gebaut, unserer Roleplay-Community und ihren Law-Enforcement-Officers zu helfen. Mein Ziel war einfach: die Papierarbeit und das Sammeln von Ressourcen etwas einfacher und effizienter zu machen.",
+        "Dieses Projekt ist eine Arbeit aus Leidenschaft und wurde entwickelt, um tägliche Aufgaben zu vereinfachen und einen zentralen Hub für wichtige LEO-Tools zu bieten. Ob du eine Strafe berechnest, einen Bericht schreibst oder Rechtsprechung nachschlägst – ich hoffe, dieses Panel macht dein Erlebnis reibungsloser."
+      ]
+    },
+    "tech": {
+      "title": "Technische Details",
+      "description": "Ein kurzer Blick unter die Haube.",
+      "cards": {
+        "openSource": {
+          "title": "Open Source",
+          "description": "Dieses Projekt ist vollständig Open Source. Du kannst den Code einsehen, Änderungen vorschlagen oder selbst beitragen – im {link}.",
+          "linkLabel": "GitHub-Repository"
+        },
+        "ai": {
+          "title": "KI-unterstützte Entwicklung",
+          "description": "Um die Entwicklung zu beschleunigen und moderne Coding-Praktiken zu erkunden, wurde diese Anwendung mit Unterstützung von KI erstellt, konkret mit Googles Firebase Studio."
+        }
+      },
+      "table": {
+        "siteVersion": {
+          "label": "Seitenversion",
+          "tooltip": "Die aktuelle öffentliche Version der Anwendung."
+        },
+        "cacheVersion": {
+          "label": "Cache-Version",
+          "tooltip": "Steuert den Browser-Cache; ändert sich bei größeren Updates, um neue Assets zu erzwingen."
+        },
+        "localStorageVersion": {
+          "label": "Local-Storage-Version",
+          "tooltip": "Steuert lokale Daten; ändert sich bei größeren Updates, um veraltete Einstellungen zu bereinigen."
+        },
+        "cdn": {
+          "label": "CDN",
+          "tooltip": "Die Basis-URL, von der statische Assets wie Strafgesetzbücher bereitgestellt werden."
+        },
+        "github": {
+          "label": "GitHub-Repository",
+          "tooltip": "Der öffentliche Quellcode dieses Projekts."
+        },
+        "discord": {
+          "label": "Discord-Community",
+          "tooltip": "Der offizielle Community- und Support-Server."
+        },
+        "notSet": "Nicht gesetzt"
+      }
+    },
+    "support": {
+      "title": "Support & Spenden",
+      "description": "Deine Unterstützung wird geschätzt – aber teile die Liebe.",
+      "intro": "Auch wenn ich jede Spendenidee sehr schätze, möchte ich dich zuerst ermutigen, die Plattformen und Menschen zu unterstützen, die dieses Projekt möglich gemacht haben. Bitte erwäge eine Spende an {gtaWorld}, damit unsere Community weiterlaufen kann, oder an den ursprünglichen Ersteller des MDC Panel, {founder}, auf dessen Grundlage ich aufgebaut habe.",
+      "buttons": {
+        "supportFounder": "Den Gründer unterstützen",
+        "donate": "An mich auf Ko-fi spenden"
+      }
+    },
+    "contact": {
+      "title": "Kontakt & Feedback",
+      "description": "Der aktuelle Maintainer ist {maintainer}. Wenn du Fragen hast, einen Bug findest oder eine Idee hast, melde dich gerne über Discord oder nutze das Feedback-Formular auf der Seite."
+    }
+  },
+  "credits": {
+    "pageTitle": "Credits & Beiträge",
+    "header": {
+      "title": "Credits & Beiträge",
+      "description": "Dieses Projekt steht auf den Schultern von Giganten."
+    },
+    "intro": "Ein großes Dankeschön an alle, die beigetragen, inspiriert oder unterstützt haben. Viele Ideen und Funktionen wurden durch die Arbeit anderer aus der Community inspiriert und hier in einem einheitlichen Tool zusammengeführt."
+  },
+  "map": {
+    "pageTitle": "Interaktive Karte"
+  },
+  "help": {
+    "pageTitle": "Hilfe & Feedback",
+    "header": {
+      "title": "Hilfe- & Feedback-Center",
+      "description": "Finde Antworten auf häufige Fragen und erhalte Support."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "searchPlaceholder": "Fragen durchsuchen...",
+      "empty": "Keine Fragen gefunden, die deiner Suche entsprechen."
+    },
+    "cta": {
+      "title": "Nicht gefunden, was du suchst?",
+      "description": "Ich nehme Feedback jederzeit gerne auf.",
+      "button": "Feedback senden"
+    }
+  },
+  "shared": {
+    "generalSection": {
+      "title": "Allgemeiner Abschnitt",
+      "date": "Datum",
+      "datePlaceholder": "TT/MMM/JJJJ",
+      "time": "Uhrzeit",
+      "timePlaceholder": "HH:MM",
+      "callSign": "Rufzeichen",
+      "callSignPlaceholder": "RUFZEICHEN",
+      "callSignComboboxPlaceholder": "Rufzeichen auswählen oder eingeben..."
+    },
+    "locationDetails": {
+      "district": "Distrikt",
+      "districtPlaceholder": "Distrikt auswählen oder eingeben",
+      "searchDistricts": "Distrikte suchen...",
+      "noDistrictsFound": "Keine Distrikte gefunden.",
+      "street": "Straßenname",
+      "streetPlaceholder": "Straße auswählen oder eingeben",
+      "searchStreets": "Straßen suchen...",
+      "noStreetsFound": "Keine Straßen gefunden."
+    },
+    "officerSection": {
+      "title": "Officer-Abschnitt",
+      "addOfficer": "Officer hinzufügen",
+      "fullName": "Vollständiger Name",
+      "rank": "Dienstgrad",
+      "selectRank": "Dienstgrad auswählen",
+      "badgeNo": "Dienstnummer",
+      "unitDetail": "Einheit / Detail",
+      "policyNotice": {
+        "title": "Hinweis zur Richtlinie",
+        "description": "Die LSPD-Richtlinie erfordert die Nutzung des erweiterten Festnahmebericht-Formats.",
+        "button": "Zu Erweitert wechseln"
+      }
+    },
+    "textareaWithPreset": {
+      "enablePreset": "Preset aktivieren?",
+      "clearToReenable": "Leere das Textfeld, um Presets wieder zu aktivieren.",
+      "textareaInGroupError": "textarea-with-preset kann nicht innerhalb einer Input-Group verwendet werden.",
+      "addEntry": "{label} hinzufügen"
+    },
+    "streetsAct": {
+      "title": "Hinweis!",
+      "description": "Eine oder mehrere Anklagepunkte fallen unter <strong>Abschnitt IV</strong> des STREETS Act.<br/>Der Festgenommene kann der Wiederholungstäter-Klausel unterliegen sowie erhöhten Fahrzeugbeschlagnahmen und Führerschein-Sperren (von 7 bis 28 Tagen).<br/>Referenz: {link}",
+      "linkLabel": "Strengthen Traffic Regulations to Ensure Every Traveler's Safety Act 2024 (STREETS Act)"
+    }
+  },
+  "arrestCalculator": {
+    "page": {
+      "documentTitle": "MDC Panel – Haftrechner",
+      "header": {
+        "title": "Haftrechner",
+        "description": "Berechne Haftstrafen basierend auf Delikten."
+      },
+      "buttons": {
+        "addCharge": "Delikt hinzufügen",
+        "calculate": "Haft berechnen",
+        "removeCharge": "Delikt entfernen"
+      },
+      "paroleViolatorLabel": "Verdächtiger ist auf Bewährung",
+      "fields": {
+        "charge": "Delikt",
+        "class": "Klasse",
+        "offense": "Tat",
+        "addition": "Zusatz",
+        "category": "Kategorie"
+      },
+      "placeholders": {
+        "selectCharge": "Delikt auswählen...",
+        "searchCharge": "Delikt nach Name oder ID suchen...",
+        "selectClass": "Klasse auswählen",
+        "selectOffense": "Tat auswählen",
+        "selectAddition": "Zusatz auswählen",
+        "selectCategory": "Kategorie auswählen"
+      },
+      "options": {
+        "classA": "Klasse A",
+        "classB": "Klasse B",
+        "classC": "Klasse C",
+        "offense": "Tat #{number}"
+      },
+      "noChargeFound": "Kein Delikt gefunden.",
+      "depaWarning": {
+        "title": "Hinweis!",
+        "description": "Bitte stelle sicher, dass du für Drogendelikte die richtige Kategorie auswählst. Prüfe ggf. den Haftbefehl (falls zutreffend) für weitere Informationen.",
+        "link": "Drug Enforcement & Prevention Act of 2020 (DEPA)"
+      },
+      "depaCategories": {
+        "title": "DEPA-Kategorien kontrollierter Substanzen"
+      },
+      "loadingPenalCode": "Strafgesetzbuch wird geladen...",
+      "toasts": {
+        "noCharges": {
+          "title": "Keine Delikte",
+          "description": "Bitte füge mindestens ein Delikt hinzu."
+        },
+        "incomplete": {
+          "title": "Unvollständiges Delikt",
+          "selectCharge": "Bitte wähle für alle Zeilen ein Delikt aus.",
+          "selectClass": "Bitte wähle eine Klasse für \"{charge}\".",
+          "selectOffense": "Bitte wähle eine Tat für \"{charge}\".",
+          "selectAddition": "Bitte wähle einen Zusatz für \"{charge}\".",
+          "selectCategory": "Bitte wähle eine Kategorie für das Drogendelikt \"{charge}\"."
+        }
+      }
+    },
+    "results": {
+      "additionNames": {
+        "offender": "Wiederholungstäter",
+        "attempt": "Versuch",
+        "accomplice": "Mittäter",
+        "accessory": "Gehilfe",
+        "conspiracy": "Verschwörung",
+        "solicitation": "Anstiftung",
+        "paroleViolation": "Bewährungsverstoß"
+      },
+      "types": {
+        "felony": "Verbrechen",
+        "misdemeanor": "Vergehen",
+        "infraction": "Ordnungswidrigkeit",
+        "unknown": "Unbekannt"
+      },
+      "autoBail": {
+        "na": "N/V",
+        "noBail": "KEINE KAUTION",
+        "auto": "AUTO-KAUTION",
+        "discretionary": "IM ERMESSEN"
+      },
+      "bailStatus": {
+        "na": "N/V",
+        "notEligible": "NICHT BERECHTIGT",
+        "discretionary": "IM ERMESSEN",
+        "eligible": "BERECHTIGT"
+      },
+      "labels": {
+        "yes": "Ja",
+        "no": "Nein",
+        "notAvailable": "N/V",
+        "yesWithValue": "Ja ({value})"
+      },
+      "currency": "${value}",
+      "time": {
+        "zero": "0 Minuten",
+        "days": {
+          "one": "{count} Tag",
+          "other": "{count} Tage"
+        },
+        "hours": {
+          "one": "{count} Stunde",
+          "other": "{count} Stunden"
+        },
+        "minutes": {
+          "one": "{count} Minute",
+          "other": "{count} Minuten"
+        },
+        "summary": "{parts} ({minutes} Min. gesamt)"
+      },
+      "charges": {
+        "cardTitle": "Delikte",
+        "copyLink": "Berechnungslink kopieren",
+        "modify": "Delikte bearbeiten",
+        "title": "{prefix} {id}. {charge}",
+        "categorySuffix": "(Kategorie: {category})",
+        "offenseSuffix": "(Tat {offense})",
+        "offenseNumber": "Tat #{offense}",
+        "copyTooltip": "{field} in die Zwischenablage kopieren",
+        "copyAria": "{field} in die Zwischenablage kopieren",
+        "table": {
+          "title": "Delikt",
+          "addition": "Zusatz",
+          "offense": "Tat",
+          "type": "Typ",
+          "minTime": "Min. Zeit",
+          "maxTime": "Max. Zeit",
+          "points": "Punkte",
+          "fine": "Geldstrafe",
+          "impound": "Beschlagnahme",
+          "suspension": "Sperre",
+          "autoBail": "Auto-Kaution",
+          "bail": "Kaution"
+        },
+        "tooltip": {
+          "sentenceMultiplier": "Strafmultiplikator: x{value}",
+          "pointsMultiplier": "Punktemultiplikator: x{value}",
+          "originalTime": "Ursprüngliche Zeit: {value}",
+          "modifiedTime": "Angepasste Zeit: {value}",
+          "originalPoints": "Ursprüngliche Punkte: {value}",
+          "modifiedPoints": "Angepasste Punkte: {value}"
+        }
+      },
+      "copyLabels": {
+        "rawFine": "Roh-Geldstrafe"
+      },
+      "stipulations": {
+        "title": "Auflagen",
+        "charge": "Delikt",
+        "stipulation": "Auflage"
+      },
+      "summary": {
+        "title": "Zusammenfassung",
+        "alerts": {
+          "sentence": {
+            "title": "Strafe begrenzt",
+            "description": "Die Gesamtstrafe überschreitet das Maximum von {maxDays} Tagen. Die angezeigte Zeit wurde begrenzt.",
+            "originalMinLabel": "Urspr. Min:",
+            "originalMaxLabel": "Urspr. Max:"
+          },
+          "impound": {
+            "title": "Beschlagnahme begrenzt",
+            "description": "Die Gesamtdauer der Beschlagnahme überschreitet das Maximum von {maxDays} Tagen. Angezeigter Wert: {value}."
+          },
+          "suspension": {
+            "title": "Sperre begrenzt",
+            "description": "Die Gesamtdauer der Sperre überschreitet das Maximum von {maxDays} Tagen. Angezeigter Wert: {value}."
+          }
+        },
+        "mobile": {
+          "minTime": "Min. Zeit",
+          "maxTime": "Max. Zeit",
+          "points": "Punkte",
+          "fine": "Geldstrafe",
+          "impound": "Beschlagnahme",
+          "suspension": "Sperre",
+          "bailStatus": "Kautionsstatus",
+          "highestBail": "Höchste Kaution"
+        },
+        "table": {
+          "minTime": "Min. Zeit",
+          "maxTime": "Max. Zeit",
+          "points": "Punkte",
+          "fine": "Geldstrafe",
+          "impound": "Beschlagnahme",
+          "suspension": "Sperre",
+          "bailStatus": "Kautionsstatus",
+          "highestBail": "Höchste Kaution"
+        }
+      },
+      "copyables": {
+        "minMinutes": "Mindestminuten",
+        "maxMinutes": "Höchstminuten",
+        "totalImpound": "Beschlagnahme gesamt (Tage)",
+        "totalSuspension": "Sperre gesamt (Tage)",
+        "bailCost": "Höchste Kaution",
+        "toastTitle": "Kopiert",
+        "toastDescription": "{label} in die Zwischenablage kopiert.",
+        "originalValue": "Ursprünglicher Wert: {value}"
+      },
+      "toasts": {
+        "copiedTitle": "In die Zwischenablage kopiert",
+        "copiedDescription": "Kopiert: {value}",
+        "copiedDescriptionWithLabel": "{label} kopiert: {value}",
+        "linkCopiedTitle": "Link kopiert",
+        "linkCopiedDescription": "Teile diesen Link, um die gleiche Berechnung zu öffnen"
+      }
+    }
+  },
+  "arrestCalculation": {
+    "page": {
+      "documentTitle": "Festnahmeberechnung",
+      "loadingDescription": "Geteilte Festnahmeberechnung wird geladen...",
+      "title": "Festnahmeberechnung",
+      "description": "Eine geteilte Festnahmeberechnung.",
+      "error": {
+        "title": "Fehler beim Laden der Berechnung",
+        "description": "Beim Verarbeiten des geteilten Berechnungslinks ist ein Problem aufgetreten.",
+        "alertTitle": "Fehler",
+        "missingCharges": "Der geteilte Link enthält keine Deliktinformationen.",
+        "invalidFormat": "Delikt #{index} hat ein ungültiges Format. Erwartet wurden mindestens 3 Teile, erhalten: {parts}.",
+        "unknownCharge": "Delikt-ID '{id}' ist kein gültiges Delikt im Strafgesetzbuch.",
+        "invalidCategory": "Ungültiger Drogenkategorie-Index '{category}' für Delikt '{id}'."
+      },
+      "errors": {
+        "penalCodeFetch": "Konnte Strafgesetzbuch-Daten nicht abrufen."
+      },
+      "empty": {
+        "title": "Keine Delikte gefunden",
+        "description": "Im bereitgestellten Link wurden keine gültigen Delikte gefunden."
+      }
+    },
+    "results": {
+      "additionNames": {
+        "offender": "Wiederholungstäter",
+        "attempt": "Versuch",
+        "accomplice": "Mittäter",
+        "accessory": "Gehilfe",
+        "conspiracy": "Verschwörung",
+        "solicitation": "Anstiftung",
+        "paroleViolation": "Bewährungsverstoß"
+      },
+      "types": {
+        "felony": "Verbrechen",
+        "misdemeanor": "Vergehen",
+        "infraction": "Ordnungswidrigkeit",
+        "unknown": "Unbekannt"
+      },
+      "autoBail": {
+        "na": "N/V",
+        "noBail": "KEINE KAUTION",
+        "auto": "AUTO-KAUTION",
+        "discretionary": "IM ERMESSEN"
+      },
+      "bailStatus": {
+        "na": "N/V",
+        "notEligible": "NICHT BERECHTIGT",
+        "discretionary": "IM ERMESSEN",
+        "eligible": "BERECHTIGT"
+      },
+      "labels": {
+        "yes": "Ja",
+        "no": "Nein",
+        "notAvailable": "N/V",
+        "yesWithValue": "Ja ({value})"
+      },
+      "currency": "${value}",
+      "time": {
+        "zero": "0 Minuten",
+        "days": {
+          "one": "{count} Tag",
+          "other": "{count} Tage"
+        },
+        "hours": {
+          "one": "{count} Stunde",
+          "other": "{count} Stunden"
+        },
+        "minutes": {
+          "one": "{count} Minute",
+          "other": "{count} Minuten"
+        },
+        "summary": "{parts} ({minutes} Min. gesamt)"
+      },
+      "charges": {
+        "cardTitle": "Delikte",
+        "copyLink": "Berechnungslink kopieren",
+        "modify": "Delikte bearbeiten",
+        "title": "{prefix} {id}. {charge}",
+        "categorySuffix": "(Kategorie: {category})",
+        "offenseSuffix": "(Tat {offense})",
+        "offenseNumber": "Tat #{offense}",
+        "copyTooltip": "{field} in die Zwischenablage kopieren",
+        "copyAria": "{field} in die Zwischenablage kopieren",
+        "table": {
+          "title": "Delikt",
+          "addition": "Zusatz",
+          "offense": "Tat",
+          "type": "Typ",
+          "minTime": "Min. Zeit",
+          "maxTime": "Max. Zeit",
+          "points": "Punkte",
+          "fine": "Geldstrafe",
+          "impound": "Beschlagnahme",
+          "suspension": "Sperre",
+          "autoBail": "Auto-Kaution",
+          "bail": "Kaution"
+        },
+        "tooltip": {
+          "sentenceMultiplier": "Strafmultiplikator: x{value}",
+          "pointsMultiplier": "Punktemultiplikator: x{value}",
+          "originalTime": "Ursprüngliche Zeit: {value}",
+          "modifiedTime": "Angepasste Zeit: {value}",
+          "originalPoints": "Ursprüngliche Punkte: {value}",
+          "modifiedPoints": "Angepasste Punkte: {value}"
+        }
+      },
+      "copyLabels": {
+        "rawFine": "Roh-Geldstrafe"
+      },
+      "stipulations": {
+        "title": "Auflagen",
+        "charge": "Delikt",
+        "stipulation": "Auflage"
+      },
+      "summary": {
+        "title": "Zusammenfassung",
+        "alerts": {
+          "sentence": {
+            "title": "Strafe begrenzt",
+            "description": "Die Gesamtstrafe überschreitet das Maximum von {maxDays} Tagen. Die angezeigte Zeit wurde begrenzt.",
+            "originalMinLabel": "Urspr. Min:",
+            "originalMaxLabel": "Urspr. Max:"
+          },
+          "impound": {
+            "title": "Beschlagnahme begrenzt",
+            "description": "Die Gesamtdauer der Beschlagnahme überschreitet das Maximum von {maxDays} Tagen. Angezeigter Wert: {value}."
+          },
+          "suspension": {
+            "title": "Sperre begrenzt",
+            "description": "Die Gesamtdauer der Sperre überschreitet das Maximum von {maxDays} Tagen. Angezeigter Wert: {value}."
+          }
+        },
+        "mobile": {
+          "minTime": "Min. Zeit",
+          "maxTime": "Max. Zeit",
+          "points": "Punkte",
+          "fine": "Geldstrafe",
+          "impound": "Beschlagnahme",
+          "suspension": "Sperre",
+          "bailStatus": "Kautionsstatus",
+          "highestBail": "Höchste Kaution"
+        },
+        "table": {
+          "minTime": "Min. Zeit",
+          "maxTime": "Max. Zeit",
+          "points": "Punkte",
+          "fine": "Geldstrafe",
+          "impound": "Beschlagnahme",
+          "suspension": "Sperre",
+          "bailStatus": "Kautionsstatus",
+          "highestBail": "Höchste Kaution"
+        }
+      },
+      "copyables": {
+        "minMinutes": "Min. Minuten",
+        "maxMinutes": "Max. Minuten",
+        "totalImpound": "Beschlagnahme gesamt (Tage)",
+        "totalSuspension": "Sperre gesamt (Tage)",
+        "bailCost": "Höchste Kaution",
+        "toastTitle": "Kopiert",
+        "toastDescription": "{label} in die Zwischenablage kopiert.",
+        "originalValue": "Ursprünglich: {value}"
+      },
+      "toasts": {
+        "copiedTitle": "Kopiert",
+        "copiedDescriptionWithLabel": "{label}: {value} in die Zwischenablage kopiert.",
+        "copiedDescription": "{value} in die Zwischenablage kopiert.",
+        "linkCopiedTitle": "Link kopiert",
+        "linkCopiedDescription": "Teile diesen Link, um die gleiche Berechnung zu öffnen"
+      }
+    }
+  },
+  "arrestReport": {
+    "page": {
+      "documentTitle": "MDC Panel – Festnahmebericht",
+      "header": {
+        "title": "Festnahmebericht",
+        "descriptionWithReport": "Eine Zusammenfassung der berechneten Delikte und des Berichtsformulars.",
+        "descriptionNew": "Erstelle einen neuen Festnahmebericht."
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "description": "Dieses Tool soll dich bei deiner Papierarbeit unterstützen – die Qualität deiner Formulierungen liegt in deiner Verantwortung. Es wird weiterhin erwartet, dass du wahrheitsgemäße und detaillierte Angaben machst."
+      },
+      "enableAdvanced": "Erweiterten Bericht aktivieren",
+      "noCharges": {
+        "title": "Keine Delikte ausgewählt",
+        "description": "Du musst zuerst Delikte im Haftrechner auswählen, bevor du einen Bericht erstellen kannst.",
+        "button": "Zum Haftrechner"
+      }
+    },
+    "form": {
+      "sections": {
+        "location": {
+          "title": "Ortsdetails"
+        },
+        "arrest": {
+          "title": "Festnahmeabschnitt"
+        },
+        "evidence": {
+          "title": "Beweisabschnitt"
+        }
+      },
+      "fields": {
+        "suspectName": {
+          "label": "Vollständiger Name des Verdächtigen",
+          "placeholder": "Vorname Nachname"
+        },
+        "narrative": {
+          "label": "Festnahmebericht (Narrative)",
+          "placeholder": "Festnahmebericht",
+          "description": "Beschreibe die Ereignisse, die zur Festnahme führten, in der Ich-Form und in chronologischer Reihenfolge. Stelle sicher, dass du den Probable Cause für jedes Delikt sowie die Festnahme erklärst."
+        },
+        "supportingEvidence": {
+          "label": "Unterstützende Beweise",
+          "placeholder": "Videos, Fotos, Links, Audioaufnahmen/Transkripte, Zeugenaussagen & Aussagen",
+          "description": "Füge unterstützende Beweise hinzu, um den Bericht zu untermauern."
+        },
+        "dashcam": {
+          "label": "Dashcam",
+          "placeholder": "Die Dashcam zeichnet Audio- und Videomaterial auf, das zeigt...",
+          "description": {
+            "main": "Spiele aus, was die Dashcam aufzeichnet, oder füge Streamable/YouTube-Links ein.",
+            "warning": "(( Lügen in diesem Abschnitt führt zu OOC-Strafen ))"
+          }
+        }
+      },
+      "modifiers": {
+        "callOfService": {
+          "label": "Einsatzauftrag",
+          "text": "erhielt einen Einsatzauftrag #"
+        },
+        "evaded": {
+          "label": "Geflüchtet",
+          "text": "Beim Versuch, {{suspect}} festzuhalten, floh die Person in einem Fahrzeug, was zu einer Verfolgung durch die Behörde führte."
+        },
+        "resistedArrest": {
+          "label": "Festnahme widerstanden",
+          "text": "Beim Versuch, {{suspect}} festzunehmen, widersetzte sich die Person körperlich und versuchte, sich der Festnahme durch die beteiligten Peace Officers zu entziehen."
+        },
+        "searched": {
+          "label": "Durchsucht",
+          "text": "{{suspect}} wurde vor der Dashcam eines Dienstfahrzeugs positioniert und gemäß den gesetzlichen Anforderungen sowie den Richtlinien der Behörde und meiner Ausbildung durchsucht. Dabei wurden folgende Gegenstände im Besitz der Person festgestellt:"
+        },
+        "booking": {
+          "label": "Einlieferung",
+          "text": "Ich brachte {{suspect}} zur nächstgelegenen Dienststelle und lieferte die Person wegen der in diesem Bericht aufgeführten Delikte gemäß allen geltenden behördlichen Richtlinien, staatlichen Anforderungen und meiner Ausbildung ein."
+        }
+      },
+      "narrative": {
+        "base": "Am {date} führte ich, {rank} {name} (#{badge}) der {department}, unter dem Rufzeichen {callsign}, eine Festnahme von {suspect} durch. Gegen {time} Uhr fuhr ich auf {street}, als ich "
+      },
+      "buttons": {
+        "generateAi": "Narrative mit KI generieren",
+        "saveDraft": "Als Entwurf speichern",
+        "submit": "Bericht einreichen"
+      }
+    },
+    "basicReport": {
+      "title": "Festnahmebericht",
+      "sections": {
+        "general": {
+          "title": "1. ALLGEMEINE INFORMATIONEN",
+          "date": "A. DATUM",
+          "time": "B. UHRZEIT (24H)",
+          "callsign": "C. RUFZEICHEN",
+          "districtStreet": "D. DISTRIKT / STRASSE"
+        },
+        "officers": {
+          "title": "2. OFFICER-INFORMATIONEN",
+          "officerName": "A. OFFICER {number} NAME",
+          "rank": "B. DIENSTGRAD",
+          "badge": "C. DIENSTNUMMER"
+        },
+        "suspect": {
+          "title": "3. INFORMATIONEN ZUM VERDÄCHTIGEN",
+          "fullName": "A. VOLLSTÄNDIGER NAME"
+        },
+        "location": {
+          "title": "4. ORT DER FESTNAHME",
+          "district": "A. DISTRIKT",
+          "street": "B. STRASSE"
+        },
+        "charges": {
+          "title": "4. DELIKTE",
+          "headers": {
+            "description": "BESCHREIBUNG",
+            "type": "TYP",
+            "class": "KLASSE",
+            "offense": "TAT",
+            "addition": "ZUSATZ"
+          }
+        },
+        "narrative": {
+          "title": "6. SCHILDERUNG"
+        },
+        "evidence": {
+          "title": "7. BEWEISE",
+          "supporting": "A. UNTERSTÜTZENDE BEWEISE",
+          "dashcam": "B. DASHCAM-MATERIAL"
+        },
+        "summary": {
+          "title": "(( 8. STRAF- & AUTO-KAUTION-ZUSAMMENFASSUNG ))",
+          "minSentence": "MINDESTSTRAFE",
+          "maxSentence": "HÖCHSTSTRAFE",
+          "totalFine": "GESAMTSTRAFE (GELD)",
+          "points": "PUNKTE",
+          "bailStatus": "KAUTIONSSTATUS",
+          "bailAmount": "KAUTION"
+        }
+      },
+      "types": {
+        "felony": "Verbrechen",
+        "misdemeanor": "Vergehen",
+        "infraction": "Ordnungswidrigkeit",
+        "unknown": "Unbekannt"
+      },
+      "time": {
+        "zero": "0 Minuten",
+        "days": {
+          "one": "{count} Tag",
+          "other": "{count} Tage"
+        },
+        "hours": {
+          "one": "{count} Stunde",
+          "other": "{count} Stunden"
+        },
+        "minutes": {
+          "one": "{count} Minute",
+          "other": "{count} Minuten"
+        },
+        "summary": "{parts} ({minutes} Min. gesamt)"
+      }
+    },
+    "advancedReport": {
+      "department": {
+        "lspd": "LOS SANTOS POLICE DEPARTMENT",
+        "lssd": "LOS SANTOS COUNTY SHERIFF'S DEPARTMENT"
+      },
+      "title": "FESTNAHMEBERICHT",
+      "officer": "{officer}"
+    },
+    "advancedForm": {
+      "headers": {
+        "arresteeName": "NAME DES FESTGENOMMENEN (VOR-, ZWEIT-, NACHNAME)",
+        "sex": "GESCHLECHT (M/F/O)",
+        "hair": "HAARE",
+        "eyes": "AUGEN",
+        "residence": "WOHNSITZ",
+        "age": "ALTER",
+        "height": "GRÖSSE",
+        "descent": "ABSTAMMUNG",
+        "clothing": "BEKLEIDUNG",
+        "oddities": "BESONDERE MERKMALE",
+        "alias": "SPITZNAME/ALIAS",
+        "gang": "GANG/CLUB",
+        "charges": "DELIKTE",
+        "personsWithSubject": "PERSONEN MIT BETEILIGUNG",
+        "name": "NAME",
+        "gangMoniker": "GANG/SPITZNAME",
+        "remove": "ENTFERNEN",
+        "incidentSetting": "EINSATZRAHMEN",
+        "date": "DATUM",
+        "time": "UHRZEIT",
+        "location": "ORT",
+        "handlingOfficers": "BEARBEITENDE {officer}",
+        "rank": "DIENSTGRAD",
+        "badgeNo": "{badge} NR.",
+        "callsign": "RUFZEICHEN",
+        "divDetail": "{div}/EINHEIT",
+        "modifiers": "FESTNAHMEBERICHT-MODIFIKATOREN"
+      },
+      "placeholders": {
+        "arresteeName": "NAME DES FESTGENOMMENEN",
+        "sex": "M / F / O",
+        "hair": "HAARFARBE",
+        "eyes": "AUGENFARBE",
+        "residence": "ADRESSE, STADT, BUNDESSTAAT",
+        "age": "ALTER",
+        "height": "GRÖSSE",
+        "descent": "ABSTAMMUNG",
+        "clothing": "BEKLEIDUNG BESCHREIBEN",
+        "oddities": "BESONDERE MERKMALE BESCHREIBEN",
+        "alias": "SPITZNAME / ALIAS (FALLS BEKANNT)",
+        "gang": "GANG / CLUB (FALLS BEKANNT)",
+        "name": "NAME {index}",
+        "gangMoniker": "GANG / SPITZNAME / ALIAS (FALLS BEKANNT)",
+        "date": "TT/MMM/JJJJ",
+        "time": "HH:MM (24H)",
+        "district": "Distrikt auswählen oder eingeben",
+        "street": "Straße auswählen oder eingeben",
+        "rank": "Dienstgrad auswählen",
+        "officer": "OFFICER {index}",
+        "badgeNo": "{badge} NR.",
+        "callsign": "RUFZEICHEN",
+        "divDetail": "{div}/EINHEIT",
+        "vehicleColor": "FAHRZEUGFARBE",
+        "vehicleModel": "FAHRZEUGMODELL",
+        "vehiclePlate": "KENNZEICHEN",
+        "transportingRank": "DIENSTGRAD (TRANSPORT)",
+        "transportingName": "NAME (TRANSPORT)",
+        "bookingRank": "DIENSTGRAD (EINLIEFERUNG)",
+        "bookingName": "NAME (EINLIEFERUNG)",
+        "dicvsLink": "DICV-Link",
+        "cctvLink": "CCTV-Link",
+        "photosLink": "Foto-Link",
+        "thirdPartyLink": "Drittmaterial-Link",
+        "plea": "Plea auswählen..."
+      },
+      "buttons": {
+        "addPerson": "PERSON HINZUFÜGEN",
+        "addOfficer": "{officer} HINZUFÜGEN",
+        "submit": "Berichtsvorschau generieren"
+      },
+      "unknownCharge": "Unbekanntes Delikt",
+      "noChargesSelected": "Keine Delikte ausgewählt",
+      "modifiers": {
+        "markedUnit": "Markiertes Fahrzeug?",
+        "slicktop": "Slicktop?",
+        "inUniform": "In Uniform?",
+        "undercover": "Undercover?",
+        "inMetroUniform": "In {metro}-Uniform?",
+        "inG3Uniform": "In G3-Uniform?",
+        "suspectInVehicle": "Verdächtiger im Fahrzeug?",
+        "mirandized": "Miranda erteilt?",
+        "understoodRights": "Rechte verstanden?",
+        "video": "Video?",
+        "photographs": "Fotos?",
+        "cctv": "CCTV?",
+        "thirdPartyVideo": "Drittvideo?",
+        "transported": "Transportiert?",
+        "booked": "Eingeliefert?",
+        "biometricsOnFile": "Biometrie vorhanden?"
+      },
+      "narrative": {
+        "source": {
+          "title": "ANLASS / QUELLE DER AKTIVITÄT",
+          "placeholder": "Beschreibe den initialen Kontakt oder die Beobachtung..."
+        },
+        "investigation": {
+          "title": "ERMITTLUNG",
+          "placeholder": "Beschreibe deine Ermittlungen..."
+        },
+        "arrest": {
+          "title": "FESTNAHME",
+          "placeholder": "Beschreibe den Festnahmeablauf..."
+        },
+        "photographs": {
+          "title": "FOTOS, VIDEOS, IN-CAR VIDEO (DICV) & DIGITALE AUFZEICHNUNGEN",
+          "placeholder": "Füge Links zu Beweismitteln hinzu...",
+          "noVideoPlaceholder": "Es waren keine Video- oder Foto-Beweise verfügbar."
+        },
+        "booking": {
+          "title": "EINLIEFERUNG",
+          "placeholder": "Beschreibe den Einlieferungsprozess..."
+        },
+        "evidence": {
+          "title": "PHYSISCHE BEWEISE",
+          "placeholder": "Liste alle gesicherten Beweismittel auf..."
+        },
+        "court": {
+          "title": "GERICHTSINFORMATIONEN",
+          "placeholder": "Ergänze relevante Informationen für das Gericht..."
+        },
+        "additional": {
+          "title": "ZUSÄTZLICHE INFORMATIONEN",
+          "placeholder": "Weitere Informationen..."
+        },
+        "enablePreset": "Preset aktivieren?",
+        "clearToReenable": "Leere das Textfeld, um Presets wieder zu aktivieren."
+      },
+      "pleas": {
+        "guilty": "Schuldig",
+        "notGuilty": "Nicht schuldig",
+        "noContest": "No Contest",
+        "requiredCase": "Pflichtfall"
+      },
+      "evidenceLog": {
+        "logNumber": "BEWEISPROTOKOLL-NR.",
+        "description": "BESCHREIBUNG",
+        "quantity": "MENGE",
+        "add": "BEWEIS EINTRAGEN",
+        "itemDescriptionPlaceholder": "BESCHREIBUNG DES GEGENSTANDS {index}"
+      },
+      "presets": {
+        "source": {
+          "partnerDetail": "{rank} {name} (#{badge}), zugewiesen zu {divDetail}",
+          "withPartners": "Am {date} war ich, {rank} {name} (#{badge}), zugewiesen zu {divDetail}, gemeinsam mit {partners} im Einsatz und unter Einheit {callsign} eingesetzt.",
+          "singleOfficer": "Am {date} war ich, {rank} {name} (#{badge}), zugewiesen zu {divDetail}, unter Einheit {callsign} im Einsatz.",
+          "vehicleMarkedSlicktop": "Ich fuhr ein markiertes schwarz-weißes Slicktop-Fahrzeug.",
+          "vehicleMarkedLightbar": "Ich fuhr ein markiertes schwarz-weißes Fahrzeug mit Dachlichtbalken.",
+          "vehicleUnmarked": "Ich fuhr ein unmarkiertes Fahrzeug.",
+          "uniformWithBadge": "Ich trug meine dienstlich ausgegebene {uniform}-Uniform und führte mein Dienstabzeichen offen sichtbar an der Uniform.",
+          "patrolUniform": "Ich trug meine dienstlich ausgegebene Streifenuniform und führte mein Dienstabzeichen offen sichtbar an der Uniform.",
+          "plainClothes": "Ich trug Zivilkleidung.",
+          "plainClothesBadge": "Ich trug Zivilkleidung und führte mein Abzeichen offen sichtbar.",
+          "uniforms": {
+            "g3": {
+              "lspd": "metropolitan G3",
+              "lssd": "SEB G3"
+            },
+            "bdu": {
+              "lspd": "metropolitan BDU",
+              "lssd": "SEB BDU"
+            }
+          }
+        },
+        "investigation": {
+          "vehicleObserved": "Gegen {time} Uhr fuhr ich auf {street}, als ich ein {color} {model} mit dem Kennzeichen {plate} bemerkte.",
+          "onPatrol": "Gegen {time} Uhr fuhr ich auf {street}.",
+          "plateKnown": "mit Kennzeichen {plate}",
+          "plateUnknown": "ohne Kennzeichen"
+        },
+        "arrest": {
+          "defaultSuspect": "die Person",
+          "notebooks": {
+            "lssd": "Sheriff's Reference Book",
+            "lspd": "Field Officer’s Notebook"
+          },
+          "responses": {
+            "affirmative": "zustimmend",
+            "negative": "ablehnend"
+          },
+          "miranda": "Ich belehrte {suspectName} unter Nutzung meines {notebookType} und las Folgendes wortgetreu vor:\n„Sie haben das Recht zu schweigen. Alles, was Sie sagen, kann vor Gericht gegen Sie verwendet werden. Sie haben das Recht, bei einer Befragung einen Anwalt anwesend zu haben. Wenn Sie sich keinen Anwalt leisten können, wird Ihnen auf Wunsch vor einer Befragung kostenlos einer bestellt. Haben Sie das verstanden?“\n{suspectName} antwortete {understood}.",
+          "stations": {
+            "lssd": "die nächstgelegene Einlieferungsstelle",
+            "lspd": "Mission Row Station"
+          },
+          "transportSelf": "Ich transportierte {suspectName} zur {station}.",
+          "transportOther": "{suspectName} wurde zur {station} von {transportingRank} {transportingName} transportiert.",
+          "searched": "{suspectName} wurde vor einem Polizeifahrzeug durchsucht; dies wurde durch das Digital In-Car Video (DICV) des Fahrzeugs aufgezeichnet.",
+          "arrestedFor": "{suspectName} wurde wegen {charges} festgenommen.",
+          "aforementionedCharges": "die vorgenannten Delikte"
+        },
+        "photographs": {
+          "dicv": "Mein Digital In-Car Video (DICV) war während dieser Maßnahme aktiv – {link}",
+          "photos": "Ich fertigte Fotos mit meinem dienstlich ausgegebenen Mobiltelefon an – {link}",
+          "cctv": "Ich erhielt Closed-Circuit Television (CCTV)-Aufnahmen – {link}",
+          "thirdParty": "Ich erhielt Videoaufnahmen Dritter – {link}"
+        },
+        "booking": {
+          "bookerSelf": "Ich",
+          "bookerOther": "{rank} {name}",
+          "biometricsOnFile": "Die vollständigen biometrischen Daten von {suspectName}, einschließlich Fingerabdrücken und DNA, lagen bereits vor, was die Einlieferung beschleunigte.",
+          "booked": "{booker} lieferte {suspectName} wegen aller im Unterpunkt FESTNAHME aufgeführten Delikte ein.",
+          "fingerprints": "Während der Einlieferung nahm {booker} 10 Fingerabdruckproben von {suspectName} und überführte sie in das Automated Fingerprint Identification System (AFIS).",
+          "dna": "Da {suspectName} wegen eines Verbrechensdelikts eingeliefert wurde, entnahm {booker} ein Bode SecurSwab 2 Deoxyribonucleic acid (DNA)-Profil.",
+          "codis": "{booker} übermittelte dieses Profil an das Combined DNA Index System (CODIS)."
+        },
+        "evidence": {
+          "propertyRoom": {
+            "lssd": "den Asservatenraum der Einlieferungsstelle",
+            "lspd": "den Asservatenraum der Mission Row Station"
+          },
+          "booked": "Ich verbuchte alle Beweismittel im {propertyRoom}.",
+          "item": "Gegenstand {index} - {logNumber} - {description} (x{quantity})"
+        },
+        "court": {
+          "primary": "Ich, {rank} {name} #{badge}, kann zum Inhalt dieses Berichts aussagen.",
+          "additional": "{rank} {name} #{badge} kann ebenfalls zum Inhalt dieses Berichts aussagen."
+        },
+        "additional": {
+          "plea": "(( {suspectName} plädierte {plea}. ))"
+        }
+      }
+    }
+  },
+  "arrestSubmit": {
+    "documentTitle": "Festnahme-Einreichung",
+    "header": {
+      "title": "Festnahmebericht – Einreichung",
+      "description": "Prüfe die berechneten Delikte und den formatierten Festnahmebericht unten."
+    },
+    "alert": {
+      "title": "Hinweis!",
+      "description": "Die Vorschau auf dieser Seite sieht ggf. nicht zu 100% korrekt aus, aber der generierte Inhalt ist dafür ausgelegt, perfekt dort zu funktionieren, wo du ihn einfügst. Dieser Bericht wurde außerdem archiviert."
+    },
+    "formattedReport": "Formatierter Bericht",
+    "buttons": {
+      "mdcRecord": "MDC-Eintrag öffnen",
+      "impound": "Beschlagnahme schnell erstellen",
+      "download": "Bericht herunterladen",
+      "downloading": "Bild wird vorbereitet...",
+      "copy": "Dokument kopieren"
+    },
+    "toasts": {
+      "success": {
+        "title": "Erfolg",
+        "description": "Berichtsinhalt in die Zwischenablage kopiert."
+      },
+      "downloadStart": {
+        "title": "Download gestartet",
+        "description": "Dein Berichtsbild wird heruntergeladen."
+      },
+      "downloadFailed": {
+        "title": "Download fehlgeschlagen",
+        "description": "Konnte aus der Dokumentvorschau kein Bild erstellen. Bitte versuche es erneut."
+      }
+    }
+  },
+  "feedbackDialog": {
+    "title": "Feedback teilen",
+    "description": "Sag uns, was du denkst. Dein Feedback hilft, die Anwendung zu verbessern.",
+    "reasons": {
+      "title": "Was beschäftigt dich?",
+      "positive": {
+        "design": "Das Design ist sauber und intuitiv.",
+        "performance": "Die Anwendung ist schnell und reaktionsfähig.",
+        "feature": "Ich mag eine bestimmte Funktion besonders.",
+        "helpful": "Dieses Tool hilft mir sehr bei meinen Aufgaben."
+      },
+      "negative": {
+        "bug": "Ich bin auf einen technischen Bug/Fehler gestoßen.",
+        "slow": "Die Anwendung fühlt sich langsam oder ruckelig an.",
+        "confusing": "Ich finde das Layout oder eine Funktion verwirrend.",
+        "missing": "Eine Funktion, die ich brauche, fehlt."
+      }
+    },
+    "additionalThoughts": "Möchtest du noch etwas ergänzen? (Optional)",
+    "additionalThoughtsPlaceholder": "Erzähl uns mehr...",
+    "help": "Hilfe",
+    "cancel": "Abbrechen",
+    "submit": "Feedback senden",
+    "submitting": "Wird gesendet...",
+    "toasts": {
+      "selectType": "Bitte wähle eine Feedback-Art (Daumen hoch oder runter).",
+      "success": {
+        "title": "Danke!",
+        "description": "Dein Feedback wurde erfolgreich gesendet."
+      },
+      "error": {
+        "title": "Fehler",
+        "description": "Konnte Feedback nicht senden. Bitte versuche es erneut."
+      }
+    }
+  },
+  "aiDialog": {
+    "title": "Narrative mit KI generieren",
+    "description": "Füge deine Logs ein, um eine Berichts-Narrative zu erstellen.",
+    "disclaimer": {
+      "title": "Wichtiger Hinweis",
+      "description": "Die Nutzung von KI wird stark entmutigt und ist in den meisten Fällen nicht erlaubt. Prüfe die Richtlinien deiner Behörde sowie etwaige LFM-Direktiven, bevor du KI zum Schreiben von Festnahmeberichten nutzt. Dies ist als Hilfsmittel gedacht und kein Ersatz. Die Authentizität der Narrative liegt in deiner Verantwortung."
+    },
+    "logsLabel": "Deine Logs",
+    "logsPlaceholder": "Füge deine rohen, unveränderten Logs hier ein...",
+    "error": {
+      "title": "Fehler",
+      "generic": "Beim Generieren der Narrative ist ein Fehler aufgetreten. Bitte versuche es erneut."
+    },
+    "buttons": {
+      "cancel": "Abbrechen",
+      "generate": "Generieren",
+      "generating": "Wird generiert..."
+    }
+  },
+  "changelog": {
+    "pageTitle": "Changelog",
+    "header": {
+      "title": "Changelog",
+      "description": "Verfolge unsere Entwicklung! Alle neuen Funktionen, Verbesserungen und Fixes."
+    },
+    "stats": {
+      "totalVersions": "Versionen gesamt",
+      "totalChanges": "Änderungen gesamt",
+      "featuresAdded": "Features & Ergänzungen",
+      "bugsFixed": "Bugfixes"
+    },
+    "whatsNew": {
+      "title": "Was ist neu?",
+      "description": "Ein kurzer Leitfaden, um unsere Update-Typen zu verstehen."
+    },
+    "releaseTypes": {
+      "release": "Große Features und stabile Releases.",
+      "major": "Wesentliche neue Funktionalität.",
+      "minor": "Kleinere Verbesserungen und Anpassungen.",
+      "hotfix": "Dringende Bugfixes."
+    },
+    "filters": {
+      "searchPlaceholder": "Changelog durchsuchen...",
+      "typePlaceholder": "Nach Typ filtern",
+      "all": "Alle Typen"
+    },
+    "releaseTypeLabels": {
+      "release": "Release",
+      "majorupdate": "Major Update",
+      "minorupdate": "Minor Update",
+      "hotfix": "Hotfix"
+    },
+    "itemTypes": {
+      "feature": "🚀 Feature",
+      "addition": "✨ Ergänzung",
+      "modification": "🎨 Anpassung",
+      "backend": "🔧 Backend",
+      "fix": "🐛 Fix"
+    },
+    "version": "Version",
+    "releasedOn": "Veröffentlicht am",
+    "lastUpdatedOn": "Zuletzt aktualisiert am",
+    "experimental": {
+      "title": "Experimentelle Funktionen",
+      "description": "Teste kommende Ideen, bevor sie dauerhaft werden. Deine Auswahl wird lokal gespeichert.",
+      "enable": "Aktivieren",
+      "disable": "Deaktivieren",
+      "currentlyEnabled": "Derzeit aktiviert",
+      "currentlyDisabled": "Derzeit deaktiviert"
+    },
+    "cacheVersion": "Cache-Version",
+    "localStorageVersion": "Local-Storage-Version"
+  }
+}
